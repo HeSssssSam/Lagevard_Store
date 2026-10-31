@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>دربارهٔ ما | لاجورد</title>
+  <meta name="description" content="دربارهٔ لاجورد؛ از یک ایدهٔ کوچک تا بازار آنلاینی با ضمانت اصالت کالا، ارسال سریع و پشتیبانی واقعی در سراسر ایران.">
+  <link rel="canonical" href="https://lajvard.example/about.html">
+  <meta name="theme-color" content="#23477d">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:site_name" content="لاجورد">
+  <meta property="og:title" content="دربارهٔ ما | لاجورد">
+  <meta property="og:description" content="داستان لاجورد، ارزش‌ها و تعهد ما به خرید مطمئن.">
+  <meta property="og:url" content="https://lajvard.example/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&h=630&q=75">
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <div class="promo-bar" data-promo-bar>
+    <div class="container promo-bar__inner">
+      <p>ارسال رایگان برای خریدهای بالای ۵۰۰ هزار تومان <span aria-hidden="true">·</span> کد تخفیف: <bdi>LJ10</bdi></p>
+      <button class="promo-bar__close" type="button" data-promo-close aria-label="بستن نوار تخفیف">×</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html" aria-label="لاجورد — صفحهٔ اصلی">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+        <span>لاجورد</span>
+      </a>
+
+      <form class="search" role="search" data-search>
+        <div class="search__box">
+          <label class="visually-hidden" for="searchCat">دستهٔ جست‌وجو</label>
+          <select class="search__cat" id="searchCat" data-search-cat><option value="">همه دسته‌ها</option></select>
+          <label class="visually-hidden" for="q">جست‌وجو در محصولات</label>
+          <input class="search__input" id="q" name="q" type="search" placeholder="نام محصول یا برند…"
+                 autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchSuggest"
+                 aria-autocomplete="list" data-search-input>
+          <button class="search__submit" type="submit" aria-label="جست‌وجو">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <ul class="search__suggest" id="searchSuggest" role="listbox" aria-label="پیشنهادهای جست‌وجو" data-search-list hidden></ul>
+      </form>
+
+      <div class="header-actions">
+        <div data-user-slot><button class="login-btn" type="button" data-dialog-open="loginDialog">ورود | ثبت‌نام</button></div>
+        <a class="cart-link" href="cart.html" aria-label="سبد خرید">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span class="cart-count" data-cart-count hidden>۰</span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="cat-nav" aria-label="دسته‌بندی محصولات" data-cat-nav>
+      <div class="container cat-nav__inner">
+        <button class="cat-nav__all" type="button" data-mega-toggle aria-expanded="false" aria-controls="megaMenu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          همهٔ دسته‌بندی‌ها
+        </button>
+        <ul class="cat-nav__list">
+          <li><a href="category.html?cat=mobile" data-cat-link>موبایل</a></li>
+          <li><a href="category.html?cat=laptop" data-cat-link>لپ‌تاپ</a></li>
+          <li><a href="category.html?cat=audio" data-cat-link>صوتی و تصویری</a></li>
+          <li><a href="category.html?cat=watch" data-cat-link>ساعت و گجت</a></li>
+          <li><a href="category.html?cat=home" data-cat-link>خانه و آشپزخانه</a></li>
+          <li><a href="category.html?cat=fashion" data-cat-link>مد و پوشاک</a></li>
+          <li><a class="is-hot" href="category.html?deals=1" data-cat-link>تخفیف‌ها</a></li>
+          <li><a class="is-hot" href="category.html?sort=bestseller" data-cat-link>پرفروش‌ترین‌ها</a></li>
+        </ul>
+      </div>
+      <div class="mega" id="megaMenu" data-mega></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="مسیر صفحه">
+        <ol style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+          <li><a href="index.html">خانه</a></li>
+          <li aria-current="page">دربارهٔ ما</li>
+        </ol>
+      </nav>
+
+      <div class="page-hero">
+        <h1>دربارهٔ لاجورد</h1>
+        <p>خرید کالای دیجیتال باید ساده، شفاف و قابل اعتماد باشد. ما از سال ۱۳۹۷ روی همین اصل کار می‌کنیم.</p>
+      </div>
+
+      <div class="page-cover about-cover">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+        <strong>لاجورد</strong>
+        <p>از یک انبار کوچک در تهران تا ارسال روزانه به بیش از ۳۰۰ شهر؛ با تیمی که هنوز هم تلفن را خودش جواب می‌دهد.</p>
+      </div>
+
+      <div class="stats" aria-label="آمار لاجورد">
+        <div class="stat"><b>+۳۰۰</b><span>شهر تحت پوشش ارسال</span></div>
+        <div class="stat"><b>۲۴٬۰۰۰</b><span>سفارش موفق در سال گذشته</span></div>
+        <div class="stat"><b>۹۷٪</b><span>رضایت ثبت‌شدهٔ مشتریان</span></div>
+        <div class="stat"><b>۷ روز</b><span>مهلت بازگشت بدون دلیل</span></div>
+      </div>
+
+      <section class="section" aria-labelledby="story-title">
+        <div class="sec-head"><h2 id="story-title">داستان ما</h2></div>
+        <div class="prose-page">
+          <p>لاجورد با یک سؤال ساده شروع شد: چرا خرید کالای دیجیتال باید این‌قدر پر از ابهام باشد؟ قیمت‌های متفاوت، مشخصات ناقص و گارانتی‌هایی که معلوم نیست چه چیزی را پوشش می‌دهند.</p>
+          <p>ما تصمیم گرفتیم فقط برندهایی را بفروشیم که منبع رسمی دارند، مشخصات فنی را کامل بنویسیم و پیش از ارسال، سلامت کالا را بررسی کنیم. امروز همان انبار کوچک، به یک مرکز توزیع با تیم بسته‌بندی و کنترل کیفیت تبدیل شده است.</p>
+          <p>هنوز هم بزرگ‌ترین سرمایهٔ ما اعتماد مشتریانی است که برای بار دوم برمی‌گردند. برای همین، هزینهٔ بازگشت کالا را به‌عهده می‌گیریم و پاسخ پشتیبانی را با اسکریپت از پیش نوشته‌شده نمی‌دهیم.</p>
+        </div>
+      </section>
+
+      <section class="section" id="values" aria-labelledby="values-title">
+        <div class="sec-head"><h2 id="values-title">ارزش‌های ما</h2></div>
+        <div class="values-grid">
+          <article class="value-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m9 11 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <h3>اصالت تضمین‌شده</h3>
+            <p>همهٔ کالاها با فاکتور رسمی و گارانتی معتبر عرضه می‌شوند. شمارهٔ سریال در فاکتور ثبت می‌شود.</p>
+          </article>
+          <article class="value-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16v13H4zM8 7V4h8v3" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 12h16" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            <h3>قیمت شفاف</h3>
+            <p>قیمت نهایی، تخفیف و هزینهٔ ارسال را پیش از پرداخت می‌بینید. بدون هزینهٔ پنهان در مرحلهٔ آخر.</p>
+          </article>
+          <article class="value-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="7" cy="18.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="17" cy="18.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+            <h3>ارسال سریع و قابل پیگیری</h3>
+            <p>سفارش‌های ثبت‌شده تا ساعت ۱۵ در همان روز بسته‌بندی می‌شوند. کد رهگیری از طریق پیامک ارسال می‌شود.</p>
+          </article>
+          <article class="value-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="3" y="12" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><rect x="17" y="12" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M19 19a4 4 0 0 1-4 3h-2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+            <h3>پشتیبانی انسانی</h3>
+            <p>از ۸ صبح تا ۱۱ شب، شنبه تا جمعه. پاسخ تلفنی و متنی، بدون ربات و بدون پاسخ‌های آماده.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="timeline-title">
+        <div class="sec-head"><h2 id="timeline-title">مسیر ما</h2></div>
+        <div class="timeline">
+          <div class="timeline__item">
+            <span class="timeline__year">۱۳۹۷</span>
+            <div><h3>شروع با ۴۰ محصول</h3><p>اولین سفارش‌ها در یک انبار ۶۰ متری در تهران بسته‌بندی شدند.</p></div>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__year">۱۴۰۰</span>
+            <div><h3>ارسال به سراسر کشور</h3><p>همکاری با سه شرکت حمل و راه‌اندازی بسته‌بندی ضدضربه برای کالاهای حساس.</p></div>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__year">۱۴۰۳</span>
+            <div><h3>مرکز کنترل کیفیت</h3><p>هر گوشی و لپ‌تاپ پیش از ارسال از نظر سلامت ظاهری و روشن‌شدن بررسی می‌شود.</p></div>
+          </div>
+          <div class="timeline__item">
+            <span class="timeline__year">۱۴۰۵</span>
+            <div><h3>همین امروز</h3><p>با تیم ۲۴ نفره، روزانه بیش از ۳۰۰ سفارش را آماده و ارسال می‌کنیم.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="join-title">
+        <div class="sec-head">
+          <h2 id="join-title">با ما در تماس باشید</h2>
+          <a class="sec-head__more" href="contact.html">تماس با ما
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <p class="text-sm muted" style="max-inline-size:60ch">برای پیشنهاد، انتقاد یا همکاری تجاری می‌توانید از فرم تماس یا شمارهٔ پشتیبانی استفاده کنید. هر پیام توسط یک نفر خوانده می‌شود.</p>
+        <div style="display:flex;gap:var(--sp-2);flex-wrap:wrap;margin-block-start:var(--sp-4)">
+          <a class="btn btn--primary" href="category.html">شروع خرید</a>
+          <a class="btn btn--outline" href="contact.html">ارسال پیام</a>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" aria-label="لاجورد">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+            <span>لاجورد</span>
+          </a>
+          <p>انتخاب‌های روزمره، با قیمت روشن و ارسال مطمئن به سراسر ایران.</p>
+        </div>
+        <nav class="footer-col" aria-label="راهنمای خرید">
+          <h3>راهنمای خرید</h3>
+          <a href="category.html">همهٔ محصولات</a>
+          <a href="category.html?deals=1">تخفیف‌ها</a>
+          <a href="category.html?sort=bestseller">پرفروش‌ترین‌ها</a>
+          <a href="category.html?sort=newest">جدیدترین‌ها</a>
+        </nav>
+        <nav class="footer-col" aria-label="خدمات مشتریان">
+          <h3>خدمات مشتریان</h3>
+          <a href="contact.html">تماس با ما</a>
+          <a href="contact.html#faq">سؤالات متداول</a>
+          <a href="contact.html#shipping">شرایط ارسال</a>
+          <a href="privacy.html">حریم خصوصی</a>
+        </nav>
+        <nav class="footer-col" aria-label="دربارهٔ لاجورد">
+          <h3>دربارهٔ ما</h3>
+          <a href="about.html" aria-current="page">داستان ما</a>
+          <a href="about.html#values">ارزش‌های ما</a>
+          <a href="contact.html">فرصت‌های شغلی</a>
+          <a href="contact.html">همکاری با ما</a>
+        </nav>
+        <div>
+          <div class="footer-contact">
+            <h3 style="margin:0 0 4px;font-size:var(--fs-sm)">تماس با ما</h3>
+            <p>تهران، بلوار آفتاب، پلاک ۱۲</p>
+            <a href="tel:+982100000000" dir="ltr" class="num">۰۲۱-۰۰۰۰۰۰۰۰</a>
+            <a href="mailto:support@lajvard.example">support@lajvard.example</a>
+            <p>شنبه تا جمعه، ۸ تا ۲۳</p>
+          </div>
+          <form class="newsletter" data-newsletter style="margin-block-start:var(--sp-4)">
+            <h3>خبرنامهٔ تخفیف‌ها</h3>
+            <p>تخفیف‌های هفتگی را زودتر ببینید.</p>
+            <div class="newsletter__row">
+              <label class="visually-hidden" for="newsEmail5">ایمیل شما</label>
+              <input class="input" id="newsEmail5" type="email" name="email" placeholder="ایمیل شما" autocomplete="email" required>
+              <button class="btn btn--primary" type="submit">عضویت</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="badges-row" aria-label="نشان‌های اعتماد">
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ضمانت اصالت کالا</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m8 12 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>پرداخت امن</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9a8 8 0 1 1 2 7" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 4v5h5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>۷ روز بازگشت</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ارسال سراسر کشور</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© ۱۴۰۵ لاجورد. تمام حقوق محفوظ است.</p>
+      <div class="socials" aria-label="شبکه‌های اجتماعی">
+        <a href="#" aria-label="اینستاگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="7" r="1.2" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="تلگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 4-3 16-6-4-3 3v-4L4 12 21 4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></a>
+        <a href="#" aria-label="ایکس"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="ناوبری سریع">
+    <a href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 10 8-7 8 7v10h-6v-6h-4v6H4V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>خانه</a>
+    <a href="category.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>دسته‌ها</a>
+    <a href="cart.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>سبد خرید<span class="cart-count" data-cart-count hidden>۰</span></a>
+    <button type="button" data-dialog-open="loginDialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>حساب من</button>
+  </nav>
+
+  <dialog class="dialog" id="loginDialog" data-login-dialog aria-labelledby="loginTitle">
+    <div class="dialog__head">
+      <h2 id="loginTitle">ورود | ثبت‌نام</h2>
+      <button class="dialog__close" type="button" data-dialog-close aria-label="بستن پنجرهٔ ورود"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="dialog__body">
+      <div data-step-phone>
+        <div class="auth">
+          <div class="auth__intro"><h3>به لاجورد خوش آمدید</h3><p>برای ورود یا ساخت حساب، شمارهٔ موبایل خود را وارد کنید.</p></div>
+          <form data-phone-form novalidate>
+            <div class="field">
+              <label class="field__label" for="phone">شمارهٔ موبایل</label>
+              <input class="input num" id="phone" name="phone" type="tel" inputmode="numeric" dir="ltr" placeholder="09121234567" autocomplete="tel" data-phone-input data-autofocus aria-describedby="phoneError">
+              <p class="field__error" id="phoneError" data-phone-error role="alert"></p>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">دریافت کد تأیید</button>
+          </form>
+          <p class="auth__legal">با ورود، <a href="privacy.html">قوانین و حریم خصوصی</a> لاجورد را می‌پذیرید.</p>
+        </div>
+      </div>
+      <div data-step-otp hidden>
+        <div class="auth">
+          <div class="auth__intro"><h3>کد تأیید را وارد کنید</h3><p>کد ۴ رقمی ارسال‌شده را وارد کنید. کد آزمایشی: <b class="num">۱۲۳۴</b></p></div>
+          <form data-otp-form novalidate>
+            <div class="otp-row" role="group" aria-label="کد تأیید چهار رقمی">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم اول" autocomplete="one-time-code">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم دوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم سوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم چهارم">
+            </div>
+            <p class="field__error" data-otp-error role="alert" style="margin-block:8px"></p>
+            <button class="btn btn--primary btn--block" type="submit">تأیید و ورود</button>
+          </form>
+          <button class="auth__resend" type="button" data-resend>ارسال دوبارهٔ کد</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/store.js" defer></script>
+</body>
+</html>

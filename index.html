@@ -1,0 +1,556 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>لاجورد | بازار آنلاین کالای دیجیتال، خانه و سبک زندگی</title>
+  <meta name="description" content="گوشی، لپ‌تاپ، صوتی، ساعت هوشمند و لوازم خانه؛ با قیمت شفاف، ضمانت اصالت و ارسال مطمئن به سراسر ایران.">
+  <link rel="canonical" href="https://lajvard.example/">
+  <meta name="theme-color" content="#23477d">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:site_name" content="لاجورد">
+  <meta property="og:title" content="لاجورد | انتخاب‌های روزمره، ساده‌تر">
+  <meta property="og:description" content="از گوشی و لپ‌تاپ تا لوازم خانه؛ انتخابی مطمئن با قیمت روشن.">
+  <meta property="og:url" content="https://lajvard.example/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&h=630&q=75">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="لپ‌تاپ روی میز چوبی">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "OnlineStore",
+    "name": "لاجورد",
+    "url": "https://lajvard.example/",
+    "description": "بازار آنلاین کالای دیجیتال، خانه و سبک زندگی",
+    "currenciesAccepted": "IRR",
+    "areaServed": "IR",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://lajvard.example/category.html?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <div class="promo-bar" data-promo-bar>
+    <div class="container promo-bar__inner">
+      <p>ارسال رایگان برای خریدهای بالای ۵۰۰ هزار تومان <span aria-hidden="true">·</span> کد تخفیف: <bdi>LJ10</bdi></p>
+      <button class="promo-bar__close" type="button" data-promo-close aria-label="بستن نوار تخفیف">×</button>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html" aria-label="لاجورد — صفحهٔ اصلی">
+        <svg viewBox="0 0 32 32" aria-hidden="true">
+          <rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/>
+          <path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/>
+          <circle cx="16" cy="16" r="1.9" fill="#e7b23a"/>
+        </svg>
+        <span>لاجورد</span>
+      </a>
+
+      <form class="search" role="search" data-search>
+        <div class="search__box">
+          <label class="visually-hidden" for="searchCat">دستهٔ جست‌وجو</label>
+          <select class="search__cat" id="searchCat" data-search-cat>
+            <option value="">همه دسته‌ها</option>
+          </select>
+          <label class="visually-hidden" for="q">جست‌وجو در محصولات</label>
+          <input class="search__input" id="q" name="q" type="search" placeholder="نام محصول یا برند…"
+                 autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchSuggest"
+                 aria-autocomplete="list" data-search-input>
+          <button class="search__submit" type="submit" aria-label="جست‌وجو">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <ul class="search__suggest" id="searchSuggest" role="listbox" aria-label="پیشنهادهای جست‌وجو" data-search-list hidden></ul>
+      </form>
+
+      <div class="header-actions">
+        <div data-user-slot>
+          <button class="login-btn" type="button" data-dialog-open="loginDialog">ورود | ثبت‌نام</button>
+        </div>
+        <button class="icon-btn location-btn" type="button" data-dialog-open="cityDialog" aria-label="انتخاب شهر برای ارسال">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s7-6 7-11a7 7 0 1 0-14 0c0 5 7 11 7 11Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+          <span class="location-btn__text">ارسال به<b data-city-label>تهران</b></span>
+        </button>
+        <a class="cart-link" href="cart.html" aria-label="سبد خرید">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="cart-count" data-cart-count hidden>۰</span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="cat-nav" aria-label="دسته‌بندی محصولات" data-cat-nav>
+      <div class="container cat-nav__inner">
+        <button class="cat-nav__all" type="button" data-mega-toggle aria-expanded="false" aria-controls="megaMenu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          همهٔ دسته‌بندی‌ها
+        </button>
+        <ul class="cat-nav__list">
+          <li><a href="category.html?cat=mobile" data-cat-link>موبایل</a></li>
+          <li><a href="category.html?cat=laptop" data-cat-link>لپ‌تاپ</a></li>
+          <li><a href="category.html?cat=audio" data-cat-link>صوتی و تصویری</a></li>
+          <li><a href="category.html?cat=watch" data-cat-link>ساعت و گجت</a></li>
+          <li><a href="category.html?cat=home" data-cat-link>خانه و آشپزخانه</a></li>
+          <li><a href="category.html?cat=fashion" data-cat-link>مد و پوشاک</a></li>
+          <li><a class="is-hot" href="category.html?deals=1" data-cat-link>تخفیف‌ها</a></li>
+          <li><a class="is-hot" href="category.html?sort=bestseller" data-cat-link>پرفروش‌ترین‌ها</a></li>
+        </ul>
+      </div>
+      <div class="mega" id="megaMenu" data-mega></div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <h1 class="visually-hidden">لاجورد؛ بازار آنلاین کالای دیجیتال، خانه و سبک زندگی</h1>
+    <div class="container">
+
+      <!-- اسلایدر و بنرهای کنار -->
+      <section class="hero" aria-label="پیشنهادهای ویژهٔ لاجورد">
+        <div class="slider" data-slider>
+          <div class="slider__track" data-slider-track>
+            <article class="slide">
+              <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1400&q=75"
+                   alt="لپ‌تاپ روی میز چوبی" width="1400" height="560" fetchpriority="high" decoding="async">
+              <div class="slide__overlay">
+                <h2>جشنوارهٔ پایان فصل</h2>
+                <p>تا ۴۰٪ تخفیف روی موبایل و لپ‌تاپ منتخب</p>
+                <a class="btn" href="category.html?cat=mobile">خرید با تخفیف</a>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1400&q=75"
+                   alt="هدفون حرفه‌ای روی سطح تیره" width="1400" height="560" loading="lazy" decoding="async">
+              <div class="slide__overlay">
+                <h2>صدای بهتر، روز بهتر</h2>
+                <p>هدفون و اسپیکر با گارانتی شرکتی</p>
+                <a class="btn" href="category.html?cat=audio">دیدن پیشنهادها</a>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="https://images.unsplash.com/photo-1517668808822-9ebb02f2a0e6?auto=format&fit=crop&w=1400&q=75"
+                   alt="قهوه‌ساز اسپرسو در آشپزخانه" width="1400" height="560" loading="lazy" decoding="async">
+              <div class="slide__overlay">
+                <h2>آشپزخانهٔ هوشمند</h2>
+                <p>لوازم خانگی اصل با ارسال سریع</p>
+                <a class="btn" href="category.html?cat=home">مشاهدهٔ محصولات</a>
+              </div>
+            </article>
+            <article class="slide">
+              <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1400&q=75"
+                   alt="کفش ورزشی روی پس‌زمینهٔ رنگی" width="1400" height="560" loading="lazy" decoding="async">
+              <div class="slide__overlay">
+                <h2>استایل روز</h2>
+                <p>کفش و اکسسوری اورجینال با قیمت مناسب</p>
+                <a class="btn" href="category.html?cat=fashion">خرید کنید</a>
+              </div>
+            </article>
+          </div>
+          <button class="slider__arrow slider__arrow--prev" type="button" data-slider-prev aria-label="اسلاید قبلی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <button class="slider__arrow slider__arrow--next" type="button" data-slider-next aria-label="اسلاید بعدی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <div class="slider__dots" data-slider-dots></div>
+        </div>
+
+        <div class="hero__side">
+          <a class="promo-tile" href="category.html?cat=watch">
+            <h3>ارسال امروز</h3>
+            <p>سفارش تا ساعت ۱۲</p>
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=400&q=75" alt="" width="400" height="240" loading="lazy">
+          </a>
+          <a class="promo-tile" href="category.html?cat=fashion">
+            <h3>۳۰٪ تخفیف پوشاک</h3>
+            <p>با کد <bdi>LJSTYLE</bdi></p>
+            <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&q=75" alt="" width="400" height="240" loading="lazy">
+          </a>
+        </div>
+      </section>
+
+      <!-- دسته‌های سریع -->
+      <section aria-label="دسته‌بندی‌های محبوب">
+        <div class="quick-cats" data-quick-cats></div>
+      </section>
+
+      <!-- حراج امروز -->
+      <section class="section" aria-labelledby="deals-title">
+        <div class="deals">
+          <div class="deals__head">
+            <h2 class="deals__title" id="deals-title">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21c4 0 7-2.7 7-6.3 0-3.9-2.8-5.7-3.7-9.7-2 1.6-3.1 3.6-3.2 5.6-1-.7-1.6-1.8-1.8-3.1C8.2 9.4 5 11.9 5 14.7 5 18.3 8 21 12 21Z" fill="currentColor"/></svg>
+              حراج امروز
+            </h2>
+            <div class="deals__timer-label">
+              پایان تخفیف تا
+              <span class="countdown" data-countdown aria-label="زمان باقی‌مانده تا پایان تخفیف">
+                <span class="countdown__unit" data-cd-h>۰۰</span><span class="countdown__sep">:</span>
+                <span class="countdown__unit" data-cd-m>۰۰</span><span class="countdown__sep">:</span>
+                <span class="countdown__unit" data-cd-s>۰۰</span>
+              </span>
+            </div>
+            <a class="deals__more" href="category.html?deals=1">مشاهده همه
+              <svg viewBox="0 0 24 24" aria-hidden="true" style="width:16px;height:16px"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </a>
+          </div>
+
+          <div class="rail-wrap" data-rail>
+            <button class="rail-btn rail-btn--prev" type="button" data-rail-prev aria-label="محصولات قبلی">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="rail" data-rail-track data-list="deals" data-limit="10"></div>
+            <button class="rail-btn rail-btn--next" type="button" data-rail-next aria-label="محصولات بعدی">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- بنرها -->
+      <section class="section" aria-label="پیشنهادهای تبلیغاتی">
+        <div class="banner-grid">
+          <a class="banner" href="category.html?cat=watch">
+            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=70" alt="ساعت هوشمند روی مچ" width="600" height="340" loading="lazy">
+            <span class="banner__text"><strong>گجت‌های پوشیدنی</strong><span>از ۲ میلیون تومان</span></span>
+          </a>
+          <a class="banner" href="category.html?cat=home">
+            <img src="https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=600&q=70" alt="جاروبرقی رباتیک در اتاق" width="600" height="340" loading="lazy">
+            <span class="banner__text"><strong>خانهٔ هوشمند</strong><span>تا ۲۵٪ تخفیف</span></span>
+          </a>
+          <a class="banner" href="category.html?cat=audio">
+            <img src="https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=600&q=70" alt="تلویزیون هوشمند روی دیوار" width="600" height="340" loading="lazy">
+            <span class="banner__text"><strong>تلویزیون ۴K</strong><span>اقساط بدون بهره</span></span>
+          </a>
+          <a class="banner" href="category.html?cat=fashion">
+            <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=600&q=70" alt="شیشهٔ عطر روی سطح روشن" width="600" height="340" loading="lazy">
+            <span class="banner__text"><strong>عطر و ادکلن</strong><span>اورجینال و اصل</span></span>
+          </a>
+        </div>
+      </section>
+
+      <!-- پرفروش‌ترین‌ها -->
+      <section class="section" aria-labelledby="best-title">
+        <div class="sec-head">
+          <h2 id="best-title">پرفروش‌ترین‌ها</h2>
+          <a class="sec-head__more" href="category.html?sort=bestseller">مشاهده همه
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="rail-wrap" data-rail>
+          <button class="rail-btn rail-btn--prev" type="button" data-rail-prev aria-label="محصولات قبلی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="rail" data-rail-track data-list="bestseller" data-limit="10"></div>
+          <button class="rail-btn rail-btn--next" type="button" data-rail-next aria-label="محصولات بعدی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- جدیدترین‌ها -->
+      <section class="section" aria-labelledby="new-title">
+        <div class="sec-head">
+          <h2 id="new-title">جدیدترین‌ها</h2>
+          <a class="sec-head__more" href="category.html?sort=newest">مشاهده همه
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="rail-wrap" data-rail>
+          <button class="rail-btn rail-btn--prev" type="button" data-rail-prev aria-label="محصولات قبلی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="rail" data-rail-track data-list="newest" data-limit="10"></div>
+          <button class="rail-btn rail-btn--next" type="button" data-rail-next aria-label="محصولات بعدی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- برندها -->
+      <section class="section" aria-labelledby="brands-title">
+        <div class="sec-head"><h2 id="brands-title">برندهای محبوب</h2></div>
+        <div class="brands" data-brands></div>
+      </section>
+
+      <!-- موبایل -->
+      <section class="section" aria-labelledby="cat-mobile-title">
+        <div class="sec-head">
+          <h2 id="cat-mobile-title">موبایل و تبلت</h2>
+          <a class="sec-head__more" href="category.html?cat=mobile">مشاهده همه
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="cat-section">
+          <a class="cat-banner" href="category.html?cat=mobile">
+            <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=500&q=75" alt="گوشی هوشمند روی سطح روشن" width="500" height="620" loading="lazy">
+            <span class="cat-banner__label">گوشی‌های پرفروش</span>
+          </a>
+          <div class="cat-section__grid" data-list="cat:mobile" data-limit="4"></div>
+        </div>
+      </section>
+
+      <!-- لپ‌تاپ -->
+      <section class="section" aria-labelledby="cat-laptop-title">
+        <div class="sec-head">
+          <h2 id="cat-laptop-title">لپ‌تاپ و کامپیوتر</h2>
+          <a class="sec-head__more" href="category.html?cat=laptop">مشاهده همه
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="cat-section">
+          <a class="cat-banner" href="category.html?cat=laptop">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=500&q=75" alt="لپ‌تاپ باز روی میز" width="500" height="620" loading="lazy">
+            <span class="cat-banner__label">لپ‌تاپ‌های حرفه‌ای</span>
+          </a>
+          <div class="cat-section__grid" data-list="cat:laptop" data-limit="4"></div>
+        </div>
+      </section>
+
+      <!-- پیشنهاد ویژه -->
+      <section class="section" aria-labelledby="foryou-title">
+        <div class="sec-head">
+          <h2 id="foryou-title">پیشنهاد ویژه برای شما</h2>
+          <a class="sec-head__more" href="category.html?deals=1">مشاهده همه
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </a>
+        </div>
+        <div class="rail-wrap" data-rail>
+          <button class="rail-btn rail-btn--prev" type="button" data-rail-prev aria-label="محصولات قبلی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+          <div class="rail" data-rail-track data-list="recommended" data-limit="10"></div>
+          <button class="rail-btn rail-btn--next" type="button" data-rail-next aria-label="محصولات بعدی">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+      </section>
+
+      <!-- ارزش‌ها -->
+      <section class="value-props" aria-label="مزیت‌های خرید از لاجورد">
+        <div class="value-prop">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="7" cy="18.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="18.5" r="1.8" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+          <span><b>ارسال سریع</b>تحویل ۲۴ ساعته در تهران</span>
+        </div>
+        <div class="value-prop">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 11 2 2 4-4" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <span><b>ضمانت اصالت</b>کالای اورجینال با گارانتی</span>
+        </div>
+        <div class="value-prop">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12a7 7 0 0 1 14 0" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="3" y="12" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><rect x="17" y="12" width="4" height="7" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M19 19a4 4 0 0 1-4 3h-2" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+          <span><b>پشتیبانی ۷ روز هفته</b>پاسخ‌گویی از ۸ تا ۲۳</span>
+        </div>
+        <div class="value-prop">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9a8 8 0 1 1 2 7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="M4 4v5h5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span><b>بازگشت کالا</b>۷ روز ضمانت بازگشت</span>
+        </div>
+      </section>
+
+      <!-- متن سئو -->
+      <section class="seo-block" data-seo-block aria-labelledby="seo-title">
+        <h2 id="seo-title">چرا از لاجورد بخریم؟</h2>
+        <div class="seo-block__text" data-seo-text>
+          <p>لاجورد برای انتخاب‌های روزمره ساخته شده است: از گوشی و لپ‌تاپ تا لوازم خانه و اکسسوری. اینجا مشخصات را کنار هم می‌گذارید، قیمت را شفاف می‌بینید و بدون شلوغی انتخاب می‌کنید.</p>
+          <p>هر کالا با گارانتی معتبر و امکان بازگشت تا ۷ روز عرضه می‌شود. تیم پشتیبانی از شنبه تا جمعه پاسخ می‌دهد؛ از انتخاب محصول تا پیگیری مرسوله.</p>
+          <p>فیلترها کار مقایسه را کوتاه می‌کنند: قیمت، برند، امتیاز کاربران و موجودی. هر چیزی که پسندید را به علاقه‌مندی‌ها بسپارید تا بعداً سریع پیدایش کنید.</p>
+          <p>سفارش‌ها در تهران معمولاً کمتر از یک روز کاری و در شهرستان‌ها بین ۲ تا ۴ روز کاری به دستتان می‌رسد. ارسال برای سفارش‌های بالای ۵۰۰ هزار تومان رایگان است.</p>
+        </div>
+        <button class="seo-block__toggle" type="button" data-seo-toggle aria-expanded="false">مشاهده بیشتر</button>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" aria-label="لاجورد">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+            <span>لاجورد</span>
+          </a>
+          <p>انتخاب‌های روزمره، با قیمت روشن و ارسال مطمئن به سراسر ایران.</p>
+        </div>
+
+        <nav class="footer-col" aria-label="راهنمای خرید">
+          <h3>راهنمای خرید</h3>
+          <a href="category.html">همهٔ محصولات</a>
+          <a href="category.html?deals=1">تخفیف‌ها</a>
+          <a href="category.html?sort=bestseller">پرفروش‌ترین‌ها</a>
+          <a href="category.html?sort=newest">جدیدترین‌ها</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="خدمات مشتریان">
+          <h3>خدمات مشتریان</h3>
+          <a href="contact.html">تماس با ما</a>
+          <a href="contact.html#faq">سؤالات متداول</a>
+          <a href="contact.html#shipping">شرایط ارسال</a>
+          <a href="privacy.html">حریم خصوصی</a>
+        </nav>
+
+        <nav class="footer-col" aria-label="دربارهٔ لاجورد">
+          <h3>دربارهٔ ما</h3>
+          <a href="about.html">داستان ما</a>
+          <a href="about.html#values">ارزش‌های ما</a>
+          <a href="contact.html">فرصت‌های شغلی</a>
+          <a href="contact.html">همکاری با ما</a>
+        </nav>
+
+        <div>
+          <div class="footer-contact">
+            <h3 class="footer-col" style="margin:0 0 4px;font-size:var(--fs-sm)">تماس با ما</h3>
+            <p>تهران، بلوار آفتاب، پلاک ۱۲</p>
+            <a href="tel:+982100000000" dir="ltr" class="num">۰۲۱-۰۰۰۰۰۰۰۰</a>
+            <a href="mailto:support@lajvard.example">support@lajvard.example</a>
+            <p>شنبه تا جمعه، ۸ تا ۲۳</p>
+          </div>
+          <form class="newsletter" data-newsletter style="margin-block-start:var(--sp-4)">
+            <h3>خبرنامهٔ تخفیف‌ها</h3>
+            <p>تخفیف‌های هفتگی را زودتر ببینید.</p>
+            <div class="newsletter__row">
+              <label class="visually-hidden" for="newsEmail">ایمیل شما</label>
+              <input class="input" id="newsEmail" type="email" name="email" placeholder="ایمیل شما" autocomplete="email" required>
+              <button class="btn btn--primary" type="submit">عضویت</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="badges-row" aria-label="نشان‌های اعتماد">
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ضمانت اصالت کالا</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m8 12 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>پرداخت امن</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9a8 8 0 1 1 2 7" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 4v5h5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>۷ روز بازگشت</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ارسال سراسر کشور</span>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© ۱۴۰۵ لاجورد. تمام حقوق محفوظ است.</p>
+      <div class="socials" aria-label="شبکه‌های اجتماعی">
+        <a href="#" aria-label="اینستاگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="7" r="1.2" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="تلگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 4-3 16-6-4-3 3v-4L4 12 21 4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></a>
+        <a href="#" aria-label="ایکس"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="ناوبری سریع">
+    <a href="index.html" aria-current="page">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 10 8-7 8 7v10h-6v-6h-4v6H4V10Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg>
+      خانه
+    </a>
+    <a href="category.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>
+      دسته‌ها
+    </a>
+    <a href="cart.html">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+      سبد خرید
+      <span class="cart-count" data-cart-count hidden>۰</span>
+    </a>
+    <button type="button" data-dialog-open="loginDialog">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M4.5 20a7.5 7.5 0 0 1 15 0" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+      حساب من
+    </button>
+  </nav>
+
+  <!-- ورود / ثبت‌نام -->
+  <dialog class="dialog" id="loginDialog" data-login-dialog aria-labelledby="loginTitle">
+    <div class="dialog__head">
+      <h2 id="loginTitle">ورود | ثبت‌نام</h2>
+      <button class="dialog__close" type="button" data-dialog-close aria-label="بستن پنجرهٔ ورود">
+        <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="dialog__body">
+      <div data-step-phone>
+        <div class="auth">
+          <div class="auth__intro">
+            <h3>به لاجورد خوش آمدید</h3>
+            <p>برای ورود یا ساخت حساب، شمارهٔ موبایل خود را وارد کنید.</p>
+          </div>
+          <form data-phone-form novalidate>
+            <div class="field">
+              <label class="field__label" for="phone">شمارهٔ موبایل</label>
+              <input class="input num" id="phone" name="phone" type="tel" inputmode="numeric" dir="ltr"
+                     placeholder="09121234567" autocomplete="tel" data-phone-input data-autofocus
+                     aria-describedby="phoneError">
+              <p class="field__error" id="phoneError" data-phone-error role="alert"></p>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">دریافت کد تأیید</button>
+          </form>
+          <p class="auth__legal">با ورود، <a href="privacy.html">قوانین و حریم خصوصی</a> لاجورد را می‌پذیرید.</p>
+        </div>
+      </div>
+
+      <div data-step-otp hidden>
+        <div class="auth">
+          <div class="auth__intro">
+            <h3>کد تأیید را وارد کنید</h3>
+            <p>کد ۴ رقمی ارسال‌شده را وارد کنید. کد آزمایشی این نسخهٔ نمایشی: <b class="num">۱۲۳۴</b></p>
+          </div>
+          <form data-otp-form novalidate>
+            <div class="otp-row" role="group" aria-label="کد تأیید چهار رقمی">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم اول" autocomplete="one-time-code">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم دوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم سوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم چهارم">
+            </div>
+            <p class="field__error" data-otp-error role="alert" style="margin-block:8px"></p>
+            <button class="btn btn--primary btn--block" type="submit">تأیید و ورود</button>
+          </form>
+          <button class="auth__resend" type="button" data-resend>ارسال دوبارهٔ کد</button>
+          <p class="auth__legal">شماره را اشتباه وارد کردید؟ پنجره را ببندید و دوباره تلاش کنید.</p>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <!-- انتخاب شهر -->
+  <dialog class="dialog" id="cityDialog" aria-labelledby="cityTitle">
+    <div class="dialog__head">
+      <h2 id="cityTitle">شهر خود را انتخاب کنید</h2>
+      <button class="dialog__close" type="button" data-dialog-close aria-label="بستن">
+        <svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="dialog__body">
+      <div class="city-list" role="radiogroup" aria-label="فهرست شهرها">
+        <button type="button" role="radio" aria-checked="true" data-city="تهران">تهران</button>
+        <button type="button" role="radio" aria-checked="false" data-city="کرج">کرج</button>
+        <button type="button" role="radio" aria-checked="false" data-city="مشهد">مشهد</button>
+        <button type="button" role="radio" aria-checked="false" data-city="اصفهان">اصفهان</button>
+        <button type="button" role="radio" aria-checked="false" data-city="شیراز">شیراز</button>
+        <button type="button" role="radio" aria-checked="false" data-city="تبریز">تبریز</button>
+        <button type="button" role="radio" aria-checked="false" data-city="اهواز">اهواز</button>
+        <button type="button" role="radio" aria-checked="false" data-city="رشت">رشت</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/store.js" defer></script>
+  <script src="assets/js/home.js" defer></script>
+</body>
+</html>

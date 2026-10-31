@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>حریم خصوصی | لاجورد</title>
+  <meta name="description" content="سیاست حریم خصوصی لاجورد؛ چه اطلاعاتی جمع‌آوری می‌شود، چگونه استفاده می‌شود و چه حقوقی دارید.">
+  <link rel="canonical" href="https://lajvard.example/privacy.html">
+  <meta name="theme-color" content="#23477d">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fa_IR">
+  <meta property="og:site_name" content="لاجورد">
+  <meta property="og:title" content="حریم خصوصی | لاجورد">
+  <meta property="og:description" content="توضیح شفاف دربارهٔ داده‌هایی که در لاجورد ذخیره و استفاده می‌شود.">
+  <meta property="og:url" content="https://lajvard.example/privacy.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=1200&h=630&q=75">
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html" aria-label="لاجورد — صفحهٔ اصلی">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+        <span>لاجورد</span>
+      </a>
+
+      <form class="search" role="search" data-search>
+        <div class="search__box">
+          <label class="visually-hidden" for="searchCat">دستهٔ جست‌وجو</label>
+          <select class="search__cat" id="searchCat" data-search-cat><option value="">همه دسته‌ها</option></select>
+          <label class="visually-hidden" for="q">جست‌وجو در محصولات</label>
+          <input class="search__input" id="q" name="q" type="search" placeholder="نام محصول یا برند…"
+                 autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchSuggest"
+                 aria-autocomplete="list" data-search-input>
+          <button class="search__submit" type="submit" aria-label="جست‌وجو">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <ul class="search__suggest" id="searchSuggest" role="listbox" aria-label="پیشنهادهای جست‌وجو" data-search-list hidden></ul>
+      </form>
+
+      <div class="header-actions">
+        <div data-user-slot><button class="login-btn" type="button" data-dialog-open="loginDialog">ورود | ثبت‌نام</button></div>
+        <a class="cart-link" href="cart.html" aria-label="سبد خرید">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span class="cart-count" data-cart-count hidden>۰</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="مسیر صفحه" style="margin-block-start:var(--sp-3)">
+        <ol style="display:flex;flex-wrap:wrap;gap:8px;align-items:center">
+          <li><a href="index.html">خانه</a></li>
+          <li aria-current="page">حریم خصوصی</li>
+        </ol>
+      </nav>
+
+      <div class="page-hero">
+        <h1>سیاست حریم خصوصی</h1>
+        <p>این صفحه توضیح می‌دهد لاجورد چه اطلاعاتی را ذخیره می‌کند، چرا ذخیره می‌کند و شما چه کنترل‌هایی دارید.</p>
+        <span class="prose-page__updated">آخرین بازنگری: ۱ مهر ۱۴۰۵</span>
+      </div>
+
+      <div class="prose-page">
+        <section aria-labelledby="p1">
+          <h2 id="p1">۱. اطلاعاتی که جمع‌آوری می‌کنیم</h2>
+          <p>برای ثبت سفارش، تنها به اطلاعات ضروری نیاز داریم:</p>
+          <ul>
+            <li>نام و نام خانوادگی، شمارهٔ موبایل و نشانی تحویل.</li>
+            <li>اطلاعات سفارش، شامل کالاهای انتخاب‌شده و مبلغ پرداختی.</li>
+            <li>ایمیل، فقط اگر خودتان آن را وارد کنید یا در خبرنامه عضو شوید.</li>
+          </ul>
+          <p>اطلاعات کارت بانکی در این سایت ذخیره نمی‌شود. پرداخت از طریق درگاه بانکی و خارج از سرورهای ما انجام می‌شود.</p>
+        </section>
+
+        <section aria-labelledby="p2">
+          <h2 id="p2">۲. ذخیره‌سازی محلی در مرورگر</h2>
+          <p>این نسخهٔ نمایشی از حافظهٔ محلی مرورگر (localStorage) برای نگه‌داشتن سبد خرید، فهرست علاقه‌مندی‌ها، شهر انتخابی و وضعیت ورود استفاده می‌کند. این داده‌ها روی دستگاه خود شما می‌مانند و به سرور ارسال نمی‌شوند.</p>
+          <p>با پاک‌کردن داده‌های سایت در مرورگر، این اطلاعات حذف می‌شوند. سبد خرید و علاقه‌مندی‌ها پس از آن قابل بازیابی نیستند.</p>
+        </section>
+
+        <section aria-labelledby="p3">
+          <h2 id="p3">۳. چگونه از اطلاعات استفاده می‌کنیم</h2>
+          <ul>
+            <li>آماده‌سازی و ارسال سفارش، شامل تماس هماهنگی برای کالاهای حجیم.</li>
+            <li>پیگیری گارانتی، بازگشت کالا و پاسخ به درخواست‌های پشتیبانی.</li>
+            <li>بهبود تجربهٔ خرید، مانند نمایش دسته‌بندی‌های مرتبط‌تر.</li>
+            <li>ارسال خبرنامه، فقط اگر خودتان عضویت را تأیید کرده باشید.</li>
+          </ul>
+          <p>ما اطلاعات شما را نمی‌فروشیم و برای تبلیغات شخص ثالث استفاده نمی‌کنیم.</p>
+        </section>
+
+        <section aria-labelledby="p4">
+          <h2 id="p4">۴. اشتراک‌گذاری با دیگران</h2>
+          <p>اطلاعات فقط در حد لازم با این گروه‌ها به اشتراک گذاشته می‌شود:</p>
+          <ul>
+            <li>شرکت حمل، برای تحویل بسته و پیگیری مرسوله.</li>
+            <li>درگاه پرداخت، برای تأیید تراکنش.</li>
+            <li>مرکز خدمات گارانتی، در صورت ثبت درخواست تعمیر.</li>
+          </ul>
+          <p>در صورت درخواست قانونی مراجع قضایی، ممکن است اطلاعات لازم ارائه شود.</p>
+        </section>
+
+        <section aria-labelledby="p5">
+          <h2 id="p5">۵. امنیت اطلاعات</h2>
+          <p>ارتباط با سایت از طریق HTTPS انجام می‌شود. دسترسی به اطلاعات سفارش محدود به کارکنانی است که برای انجام همان کار به آن نیاز دارند. با این حال، هیچ سامانه‌ای امنیت مطلق ندارد؛ در صورت مشاهدهٔ فعالیت مشکوک، سریعاً به ما اطلاع دهید.</p>
+        </section>
+
+        <section aria-labelledby="p6">
+          <h2 id="p6">۶. حقوق شما</h2>
+          <ul>
+            <li>دیدن اطلاعاتی که دربارهٔ شما ذخیره شده است.</li>
+            <li>اصلاح اطلاعات نادرست، مانند نشانی یا شمارهٔ تماس.</li>
+            <li>درخواست حذف حساب و داده‌های مرتبط، مگر اطلاعاتی که نگه‌داری آن قانوناً لازم است.</li>
+            <li>لغو عضویت در خبرنامه از طریق لینک انتهای هر ایمیل.</li>
+          </ul>
+          <p>برای اعمال این حقوق، از فرم <a href="contact.html">تماس با ما</a> یا ایمیل پشتیبانی استفاده کنید. پاسخ حداکثر تا ۷ روز کاری داده می‌شود.</p>
+        </section>
+
+        <section aria-labelledby="p7">
+          <h2 id="p7">۷. تغییرات این سیاست</h2>
+          <p>اگر این سیاست تغییر کند، نسخهٔ جدید در همین صفحه با تاریخ بازنگری تازه منتشر می‌شود. تغییرات مهم از طریق ایمیل یا پیامک اطلاع داده می‌شوند.</p>
+        </section>
+
+        <section aria-labelledby="p8">
+          <h2 id="p8">۸. تماس</h2>
+          <p>پرسشی دربارهٔ حریم خصوصی دارید؟ با <a href="mailto:support@lajvard.example">support@lajvard.example</a> یا شمارهٔ <a href="tel:+982100000000" dir="ltr">۰۲۱-۰۰۰۰۰۰۰۰</a> در تماس باشید.</p>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="logo" href="index.html" aria-label="لاجورد">
+            <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+            <span>لاجورد</span>
+          </a>
+          <p>انتخاب‌های روزمره، با قیمت روشن و ارسال مطمئن به سراسر ایران.</p>
+        </div>
+        <nav class="footer-col" aria-label="راهنمای خرید">
+          <h3>راهنمای خرید</h3>
+          <a href="category.html">همهٔ محصولات</a>
+          <a href="category.html?deals=1">تخفیف‌ها</a>
+          <a href="category.html?sort=bestseller">پرفروش‌ترین‌ها</a>
+          <a href="category.html?sort=newest">جدیدترین‌ها</a>
+        </nav>
+        <nav class="footer-col" aria-label="خدمات مشتریان">
+          <h3>خدمات مشتریان</h3>
+          <a href="contact.html">تماس با ما</a>
+          <a href="contact.html#faq">سؤالات متداول</a>
+          <a href="contact.html#shipping">شرایط ارسال</a>
+          <a href="privacy.html" aria-current="page">حریم خصوصی</a>
+        </nav>
+        <nav class="footer-col" aria-label="دربارهٔ لاجورد">
+          <h3>دربارهٔ ما</h3>
+          <a href="about.html">داستان ما</a>
+          <a href="about.html#values">ارزش‌های ما</a>
+          <a href="contact.html">فرصت‌های شغلی</a>
+          <a href="contact.html">همکاری با ما</a>
+        </nav>
+        <div>
+          <div class="footer-contact">
+            <h3 style="margin:0 0 4px;font-size:var(--fs-sm)">تماس با ما</h3>
+            <p>تهران، بلوار آفتاب، پلاک ۱۲</p>
+            <a href="tel:+982100000000" dir="ltr" class="num">۰۲۱-۰۰۰۰۰۰۰۰</a>
+            <a href="mailto:support@lajvard.example">support@lajvard.example</a>
+            <p>شنبه تا جمعه، ۸ تا ۲۳</p>
+          </div>
+          <form class="newsletter" data-newsletter style="margin-block-start:var(--sp-4)">
+            <h3>خبرنامهٔ تخفیف‌ها</h3>
+            <p>تخفیف‌های هفتگی را زودتر ببینید.</p>
+            <div class="newsletter__row">
+              <label class="visually-hidden" for="newsEmail7">ایمیل شما</label>
+              <input class="input" id="newsEmail7" type="email" name="email" placeholder="ایمیل شما" autocomplete="email" required>
+              <button class="btn btn--primary" type="submit">عضویت</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="badges-row" aria-label="نشان‌های اعتماد">
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8 7 10 4-2 7-5.5 7-10V6l-7-3Z" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ضمانت اصالت کالا</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="m8 12 3 3 5-6" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>پرداخت امن</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9a8 8 0 1 1 2 7" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 4v5h5" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>۷ روز بازگشت</span>
+        <span class="trust-badge"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 11h4l3 3v2h-7" fill="none" stroke="currentColor" stroke-width="1.7"/></svg>ارسال سراسر کشور</span>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>© ۱۴۰۵ لاجورد. تمام حقوق محفوظ است.</p>
+      <div class="socials" aria-label="شبکه‌های اجتماعی">
+        <a href="#" aria-label="اینستاگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.7"/><circle cx="17" cy="7" r="1.2" fill="currentColor"/></svg></a>
+        <a href="#" aria-label="تلگرام"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 4-3 16-6-4-3 3v-4L4 12 21 4Z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></a>
+        <a href="#" aria-label="ایکس"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5l14 14M19 5 5 19" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/store.js" defer></script>
+</body>
+</html>

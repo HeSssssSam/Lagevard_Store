@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>صفحه پیدا نشد | لاجورد</title>
+  <meta name="description" content="صفحه‌ای که به دنبال آن بودید پیدا نشد. از صفحهٔ اصلی یا دسته‌بندی‌ها ادامه دهید.">
+  <meta name="theme-color" content="#23477d">
+  <meta name="robots" content="noindex, follow">
+  <link rel="icon" href="assets/favicon/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/Vazirmatn-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/tokens.css">
+  <link rel="stylesheet" href="assets/css/base.css">
+  <link rel="stylesheet" href="assets/css/layout.css">
+  <link rel="stylesheet" href="assets/css/components.css">
+  <link rel="stylesheet" href="assets/css/pages.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">رفتن به محتوای اصلی</a>
+
+  <header class="site-header">
+    <div class="container header-main">
+      <a class="logo" href="index.html" aria-label="لاجورد — صفحهٔ اصلی">
+        <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="30" height="30" rx="9" fill="currentColor"/><path d="M16 7.2 18.4 13.6 24.8 16 18.4 18.4 16 24.8 13.6 18.4 7.2 16 13.6 13.6Z" fill="#fff"/><circle cx="16" cy="16" r="1.9" fill="#e7b23a"/></svg>
+        <span>لاجورد</span>
+      </a>
+
+      <form class="search" role="search" data-search>
+        <div class="search__box">
+          <label class="visually-hidden" for="searchCat">دستهٔ جست‌وجو</label>
+          <select class="search__cat" id="searchCat" data-search-cat><option value="">همه دسته‌ها</option></select>
+          <label class="visually-hidden" for="q">جست‌وجو در محصولات</label>
+          <input class="search__input" id="q" name="q" type="search" placeholder="نام محصول یا برند…"
+                 autocomplete="off" role="combobox" aria-expanded="false" aria-controls="searchSuggest"
+                 aria-autocomplete="list" data-search-input>
+          <button class="search__submit" type="submit" aria-label="جست‌وجو">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m16.5 16.5 4 4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <ul class="search__suggest" id="searchSuggest" role="listbox" aria-label="پیشنهادهای جست‌وجو" data-search-list hidden></ul>
+      </form>
+
+      <div class="header-actions">
+        <div data-user-slot><button class="login-btn" type="button" data-dialog-open="loginDialog">ورود | ثبت‌نام</button></div>
+        <a class="cart-link" href="cart.html" aria-label="سبد خرید">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm10 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4ZM3 3h2l2.4 11.2A2 2 0 0 0 9.4 16h8.2a2 2 0 0 0 2-1.6L21 7H6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          <span class="cart-count" data-cart-count hidden>۰</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="container">
+      <div class="notfound">
+        <p class="notfound__code" aria-hidden="true">۴۰۴</p>
+        <h1>این صفحه پیدا نشد</h1>
+        <p>ممکن است نشانی را اشتباه وارد کرده باشید یا صفحه جابه‌جا شده باشد. از میان دسته‌بندی‌ها یا جست‌وجو ادامه دهید.</p>
+        <div style="display:flex;gap:var(--sp-2);flex-wrap:wrap;justify-content:center">
+          <a class="btn btn--primary" href="index.html">بازگشت به صفحهٔ اصلی</a>
+          <a class="btn btn--outline" href="category.html">مشاهدهٔ محصولات</a>
+        </div>
+        <nav aria-label="دسته‌بندی‌های پیشنهادی" style="margin-block-start:var(--sp-4)">
+          <ul class="chips" style="justify-content:center">
+            <li><a class="chip" href="category.html?cat=mobile">موبایل</a></li>
+            <li><a class="chip" href="category.html?cat=laptop">لپ‌تاپ</a></li>
+            <li><a class="chip" href="category.html?cat=audio">صوتی و تصویری</a></li>
+            <li><a class="chip" href="category.html?deals=1">تخفیف‌ها</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom" style="margin-block-start:0;border-block-start:0">
+      <p>© ۱۴۰۵ لاجورد. تمام حقوق محفوظ است.</p>
+      <p><a href="contact.html">تماس با ما</a> · <a href="privacy.html">حریم خصوصی</a></p>
+    </div>
+  </footer>
+
+  <dialog class="dialog" id="loginDialog" data-login-dialog aria-labelledby="loginTitle">
+    <div class="dialog__head">
+      <h2 id="loginTitle">ورود | ثبت‌نام</h2>
+      <button class="dialog__close" type="button" data-dialog-close aria-label="بستن پنجرهٔ ورود"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+    </div>
+    <div class="dialog__body">
+      <div data-step-phone>
+        <div class="auth">
+          <div class="auth__intro"><h3>به لاجورد خوش آمدید</h3><p>برای ورود یا ساخت حساب، شمارهٔ موبایل خود را وارد کنید.</p></div>
+          <form data-phone-form novalidate>
+            <div class="field">
+              <label class="field__label" for="phone">شمارهٔ موبایل</label>
+              <input class="input num" id="phone" name="phone" type="tel" inputmode="numeric" dir="ltr" placeholder="09121234567" autocomplete="tel" data-phone-input data-autofocus aria-describedby="phoneError">
+              <p class="field__error" id="phoneError" data-phone-error role="alert"></p>
+            </div>
+            <button class="btn btn--primary btn--block" type="submit">دریافت کد تأیید</button>
+          </form>
+          <p class="auth__legal">با ورود، <a href="privacy.html">قوانین و حریم خصوصی</a> لاجورد را می‌پذیرید.</p>
+        </div>
+      </div>
+      <div data-step-otp hidden>
+        <div class="auth">
+          <div class="auth__intro"><h3>کد تأیید را وارد کنید</h3><p>کد ۴ رقمی ارسال‌شده را وارد کنید. کد آزمایشی: <b class="num">۱۲۳۴</b></p></div>
+          <form data-otp-form novalidate>
+            <div class="otp-row" role="group" aria-label="کد تأیید چهار رقمی">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم اول" autocomplete="one-time-code">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم دوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم سوم">
+              <input type="text" inputmode="numeric" maxlength="1" aria-label="رقم چهارم">
+            </div>
+            <p class="field__error" data-otp-error role="alert" style="margin-block:8px"></p>
+            <button class="btn btn--primary btn--block" type="submit">تأیید و ورود</button>
+          </form>
+          <button class="auth__resend" type="button" data-resend>ارسال دوبارهٔ کد</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="assets/js/data.js" defer></script>
+  <script src="assets/js/store.js" defer></script>
+</body>
+</html>
